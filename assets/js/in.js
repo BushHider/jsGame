@@ -177,7 +177,7 @@ basicGame.inState.prototype = {
     var index = 0;
 
     if (text.length > 573) {
-      this.changeText("Error 404 - INTERNAL SERVER ERROR");
+      this.changeText("Error 404 - INTERNAL SERVER ERRORs");
     } else {
       while (index < text.length) {
         consolestring = text.substr(index, linelength);
