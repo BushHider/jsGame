@@ -27,7 +27,7 @@ basicGame.menuState.prototype = {
 			do {
 				var name = prompt("Please enter your name, maximum 15 characters.", "");
 			}
-			while (name.length > 15 OR name.length = 0)
+			while (name.length > 15 | name.length = 0)
 			localStorage.setItem("user-name", name);
 			this.state.start('inside');
 		} else if (localStorage.getItem("user-name") !== null) {
@@ -36,7 +36,7 @@ basicGame.menuState.prototype = {
 				do {
 					var name = prompt("Please enter your name, maximum 15 characters.", "");
 				}
-				while (name.length > 15 OR name.length = 0)
+				while (name.length > 15 | name.length = 0)
 				localStorage.setItem("user-name", name);
 				this.state.start('inside');
 			} else if (confirmings == true) {
