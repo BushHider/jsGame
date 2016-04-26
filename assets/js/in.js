@@ -131,6 +131,15 @@ basicGame.inState.prototype = {
 
   update: function() {
     // if (cursors.down.isDown)
+    this.changeText(" ");
+    this.changeText(" ");
+    this.changeText(" ");
+    this.changeText("Player x: " + Math.round(player.x));
+    this.changeText("Player y: " + Math.round(player.y));
+    this.changeText(" ");
+    this.changeText(" ");
+    this.changeText(" ");
+
     usernametext.x = Math.floor(player.x);
     usernametext.y = Math.floor(player.y - 30);
 
